@@ -1,0 +1,17 @@
+{
+  "name": "clarity-weekly-snapshot",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "engines": {
+    "node": ">=20"
+  },
+  "scripts": {
+    "run": "node src/runSnapshot.js",
+    "setup-sheets": "node src/setupSheets.js",
+    "check": "node --check src/runSnapshot.js && node --check src/setupSheets.js"
+  },
+  "dependencies": {
+    "googleapis": "^144.0.0"
+  }
+}
