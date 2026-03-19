@@ -32,6 +32,8 @@ Add these repository secrets:
 - `GOOGLE_SERVICE_ACCOUNT_JSON`
 - `GOOGLE_SHEETS_SPREADSHEET_ID`
 
+Setup steps are documented in [`docs/github-secrets-checklist.md`](./docs/github-secrets-checklist.md).
+
 ## Notes
 
 - The runner targets the previous calendar day in `Europe/London` by default.
